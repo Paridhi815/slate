@@ -48,6 +48,11 @@ under the License.
       <%= javascript_include_tag  "all_nosearch" %>
     <% end %>
 
+    <script type="text/javascript">
+      $(document).ready(function() {
+        addTryNow();
+      });
+    </script>
     <% if current_page.data.code_clipboard %>
     <script>
       $(function() { setupCodeCopy(); });

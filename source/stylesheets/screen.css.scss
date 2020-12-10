@@ -270,6 +270,24 @@ html, body {
     bottom: 0;
   }
 
+  .response-box {
+    width: $examples-width;
+    background-color: white;
+    position: fixed;
+    z-index: 100;
+    top: 50px;
+  }
+
+  .try-now-box {
+    color: black;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
   .lang-selector {
     position: fixed;
     z-index: 50;
